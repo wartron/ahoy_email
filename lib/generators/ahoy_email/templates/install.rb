@@ -9,6 +9,7 @@ class <%= migration_class_name %> < ActiveRecord::Migration
       t.string :user_type
 
       # optional - feel free to remove
+      t.text :from
       t.string :mailer
       t.text :subject
       # t.text :content
