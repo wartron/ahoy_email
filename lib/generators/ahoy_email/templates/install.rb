@@ -7,6 +7,8 @@ class <%= migration_class_name %> < ActiveRecord::Migration
       t.text :to
       t.integer :user_id
       t.string :user_type
+      t.integer :user_from_id
+      t.string :user_from_type
 
       # optional - feel free to remove
       t.text :from
